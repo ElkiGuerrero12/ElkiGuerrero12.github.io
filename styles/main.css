@@ -1,0 +1,408 @@
+/*
+Globals
+*/
+
+
+body {
+    /*Fuentes*/
+    font-family: arial;
+    font-size: 13px;
+    box-align: center;
+    height: auto;
+   /* border:solid 1px #42704e;*/
+        
+}
+
+.general{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+h2{
+  width: 102px;
+  height: 29px;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  color:#0077b5;
+  margin-top: 35px;
+  margin-left: 43px;
+}
+
+h3{
+    width: 73px;
+  height: 19px;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+h4{
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-left: 33px;
+  margin-right: 33px;
+  width: 45px;
+}
+
+/*HEADER*/
+header{
+    background:#25b244;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+
+    header .name{
+        font-family: Helvetica-Bold;
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 22px;
+        margin-left: 33px;
+        color: #ffffff;
+        pointer-events: all;
+    }
+
+    header ul{
+        display: flex;
+        font-family: arial;
+        font-size: 16px;
+        width: 404px;
+        height: 17px;
+        margin-right: 31px;
+        justify-content: space-between;
+                        
+    }
+/*
+    header ul li{
+        margin: 20px 31px 30px 0px;
+    }
+*/
+    header ul a{
+        color:white;
+    
+    }
+    /*MAIN*/
+
+     /*SECTION ABOUT ME*/
+
+    .sobreMi{
+        width: 80%;
+        margin: auto;
+
+    }
+       
+    section .yo{
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    section .yo img{
+        margin-top: 26px;
+        margin-right: 40px;
+        margin-left: 35px;
+        width: 216px;
+        height: 216px;
+        object-fit: contain;
+        border: solid 6px #0077b5;
+        border-radius: 100%
+    }
+
+    section .description{
+        justify-content: space-between;
+        /*width: 703px;*/
+        /*height: 213px;*/
+        font-family: Arial;
+        font-size: 18px;
+        line-height: 1.56;
+        letter-spacing: normal;
+        color: #000000;
+        margin-top: 32px;
+    }
+
+    .descriptionGeneral{
+       display: block;
+    }
+
+      
+    section .description ul{
+        display: flex;
+        margin-top: 24px;
+        margin-bottom: 36px;
+        margin-left: 13px;
+        
+    }
+
+  
+    .description ul li{
+        margin-right: 10px;
+        
+    }
+
+    .descriptionFortalezas{
+        display: flex;
+        margin: 0.5rem
+    }
+
+    .descriptionFortalezas i{
+        margin-right: 1rem;
+    }
+
+    .descriptionFortalezas .fab .fa {
+        width: 1rem;
+
+    }
+
+    .descriptionFortalezas p{
+        font-weight: bold;
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+        
+
+
+     .fa-linkedin {
+        width: 38.4px;
+        height: 38.4px;
+        background-color: #0077b5;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+    }
+    .fa-github-alt {
+        width: 38.4px;
+        height: 38.4px;
+        background-color: black;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+    }
+
+   .fa-twitter-square {
+    width: 38.4px;
+    height: 38.4px;
+    background-color: #0077b5;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    }
+
+    section .description .fa-skype {
+        width: 38.4px;
+        height: 38.4px;
+        background-color: #0077b5;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+    }
+
+    /*SECTION IMPORATNTE*/
+
+    .importante{
+        width: 80%;
+        margin: auto;
+    }
+
+    .importante h2{
+        text-align: center;
+        width: 100%;
+    }
+
+    .importante p{
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 30px;
+    }
+
+    
+    /* FOOTER*/
+
+    footer{
+    width: 100%;
+    height: 70px;
+    background-color:#25b244;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    footer p{
+        color: white;
+        margin-right: 20px;
+        
+    }
+
+    /* CONTACTO*/
+
+    .contact {
+        display: flex;
+    }
+
+    .contacto-footer{
+        /* background-color: green; */
+        height: 3rem;
+        position: fixed;
+        bottom: 24px;
+        z-index: 100;
+        left: 0px;
+        width: 100%;
+        /* display: none; */
+      }
+      
+      .contacto-footer ul{
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .contacto-footer li{
+        font-size: 2.3rem;
+        background-color: green;
+        width: 4rem;
+        height: 2rem;
+        border-radius: 16px;
+        text-align: center;
+        padding: .5rem;
+      }
+    
+      /*BLOG
+      HIPOTECARIO*/
+
+      .blog-hipotecario{
+        width: 80%;        
+        margin: auto;
+        margin-top: 2rem;
+        font-size: 18px;
+      }
+
+      .blog-hipotecario .articulo{
+        margin-bottom: 4rem;
+      }
+
+      .blog-hipotecario figure{
+        text-align: center;
+      }
+
+      .blog-hipotecario h2{
+        width: 100%;
+        text-align: center;
+        font-size: 21px;
+        margin: 1rem;
+      }
+
+      .blog-hipotecario p{
+        width: 80%;
+    /* text-align: center; */
+        margin: auto;
+        line-height: 1.40;
+      }
+
+      /*TABLET*/
+@media (max-width: 680px) {
+
+    /*MI*/
+
+    .mi{
+        display: none;
+    }
+
+    header .name{
+        font-size: 24px;
+    }
+
+    header ul {
+        text-align: center;
+        width: auto;
+    }
+
+    header ul li{
+        margin-right: 0.7rem;
+    }
+
+    section .yo{
+        display: block;
+        margin-top: 0px;
+    }
+
+    .sobreMi h2{
+        text-align: center;
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .yo figure{
+        text-align: center;
+    }
+
+    .importante h2 {
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    /*blog*/
+
+    .blog-hipotecario p{
+        width: 90%;
+    }
+
+}
+
+      /*CELULAR*/
+      @media (max-width: 680px) {
+
+        /*MI*/
+   
+    header .name{
+        text-align: center;
+        margin-left: 8px;
+    }
+
+    .sobreMi{
+        width: 90%;
+    }
+
+
+    
+/*BLOG HIPOTECARIO*/
+
+.blog-hipotecario {
+    width: 90%;
+}
+
+
+.blog-hipotecario h2{
+    padding-bottom: 2rem;
+    margin: auto;
+}
+
+      }
