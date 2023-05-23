@@ -312,6 +312,10 @@ header{
         text-align: center;
       }
 
+      .blog-hipotecario img{
+        width: 60%;
+      }
+
       .blog-hipotecario h2{
         width: 100%;
         text-align: center;
@@ -378,7 +382,7 @@ header{
 }
 
       /*CELULAR*/
-      @media (max-width: 680px) {
+      @media (max-width: 480px) {
 
         /*MI*/
    
@@ -399,6 +403,9 @@ header{
     width: 90%;
 }
 
+.blog-hipotecario img{
+    width: 100%;
+  }
 
 .blog-hipotecario h2{
     padding-bottom: 2rem;
